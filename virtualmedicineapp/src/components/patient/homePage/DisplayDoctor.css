@@ -1,0 +1,40 @@
+.displayDoctorMain {
+  padding: 20px 10px;
+}
+
+.displayDoctorMain > .row {
+  padding: 40px;
+}
+.figure-img {
+  margin-top: 5px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.card {
+  box-shadow: 5px 5px 5px #e5e4e4;
+}
+.displayDoctorMain .col-md-4{
+  margin-top: 20px;
+}
+
+.btnRow{
+  width: 80%;
+  margin: 0px auto;
+}
+
+.btnRow .col-12 {
+  margin: 5px 0;
+}
+
+.viewDoc,
+.viewMore {
+  padding: 7px 25px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.viewMore{
+  margin-top: 10px;
+}

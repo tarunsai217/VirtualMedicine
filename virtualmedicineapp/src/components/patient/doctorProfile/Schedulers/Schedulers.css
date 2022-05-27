@@ -1,0 +1,36 @@
+.scheduler-container {
+  height: 50vh;
+  width: 100vw;
+}
+
+.gray_section .dhx_month_head {
+  background-color: silver;
+  opacity: .4;
+  z-index: 1;
+  }
+  gray_section .dhx_month_body {
+  background-color: silver;
+  opacity: .4;
+  z-index: 1;
+  }
+.dhx_cal_event,
+.dhx_header,
+.dhx_title,
+.dhx_body {
+  cursor: pointer !important;
+  background-color: whitesmoke !important;
+  color: black !important;
+}
+
+.selected{
+  background-color: lightgreen !important;
+  color: white !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.displayBooked {
+  pointer-events: none;
+}

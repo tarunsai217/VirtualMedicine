@@ -1,0 +1,156 @@
+{
+  "doctor": [
+    {
+      "id": 1,
+      "name": "John Smiths",
+      "email": "john@gmail.com",
+      "specialization": "Orthologist",
+      "mobileNo": "9182382723",
+      "MCI": "82362636267126",
+      "city": "tamilnadu",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 5,
+      "mci": "MCI"
+    },
+    {
+      "id": 2,
+      "name": "arun",
+      "email": "arun@gmail.com",
+      "specialization": "diabetes",
+      "mobileNo": "1283382723",
+      "MCI": "82362636267126",
+      "city": "delhi",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 2
+    },
+    {
+      "id": 3,
+      "name": "nirmal",
+      "email": "nirmal@gmail.com",
+      "specialization": "medicine",
+      "mobileNo": "9182382238",
+      "MCI": "82362631297126",
+      "city": "tamilnadu",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 4
+    },
+    {
+      "id": 4,
+      "name": "logesh",
+      "email": "logesh@gmail.com",
+      "specialization": "neurology",
+      "mobileNo": "9182382129",
+      "MCI": "82362636267126",
+      "city": "delhi",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 2
+    },
+    {
+      "id": 5,
+      "name": "jhon",
+      "email": "jhon@gmail.com",
+      "specialization": "medicine",
+      "mobileNo": "7237182387",
+      "MCI": "82362636267126",
+      "city": "andhrapradesh",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 5
+    },
+    {
+      "id": 6,
+      "name": "jhonTest",
+      "email": "jhontest@gmail.com",
+      "specialization": "cardiologist",
+      "mobileNo": "91823127723",
+      "MCI": "82362636267126",
+      "city": "kerala",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 5
+    },
+    {
+      "id": 7,
+      "name": "barani",
+      "email": "barani@gmail.com",
+      "specialization": "ortho",
+      "mobileNo": "91238382723",
+      "MCI": "82362636267126",
+      "city": "uttarpradesh",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/001/921/774/small/beautiful-woman-red-hair-in-frame-circular-avatar-character-free-vector.jpg",
+      "experience": 5
+    }    
+  ],
+  "schedules": [
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174065",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "2022-04-22",
+      "startTime" : "18:00:00",
+      "endTime" : "19:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "General Medicine"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174098",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "2022-04-22",
+      "startTime" : "14:00:00",
+      "endTime" : "15:00:00",
+      "scheduleStatus" : "NOTAVAILABLE",
+      "specialization" : "General Medicine"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174028",
+      "doctorEmail": "jhondoe1@gmail.com",
+      "date": "2022-04-22",
+      "startTime" : "18:00:00",
+      "endTime" : "19:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "Ortho"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174020",
+      "doctorEmail": "jhondoe1@gmail.com",
+      "date": "2022-04-22",
+      "startTime" : "18:00:00",
+      "endTime" : "19:00:00",
+      "scheduleStatus" : "BOOKED",
+      "specialization" : "Ortho"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174231",
+      "doctorEmail": "nirmal@gmail.com",
+      "date": "2022-04-23",
+      "startTime" : "12:00:00",
+      "endTime" : "13:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "General Medicine"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174301",
+      "doctorEmail": "nirmal@gmail.com",
+      "date": "2022-04-23",
+      "startTime" : "13:00:00",
+      "endTime" : "14:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "General Medicine"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174009",
+      "doctorEmail": "nirmal@gmail.com",
+      "date": "2022-04-23",
+      "startTime" : "15:00:00",
+      "endTime" : "16:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "General Medicine"
+    },
+    {
+      "scheduleId": "123e4567-e89b-12d3-a456-426614174001",
+      "doctorEmail": "nirmal@gmail.com",
+      "date": "2022-04-23",
+      "startTime" : "18:00:00",
+      "endTime" : "19:00:00",
+      "scheduleStatus" : "AVAILABLE",
+      "specialization" : "General Medicine"
+    }
+  ]
+}

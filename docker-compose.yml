@@ -1,0 +1,60 @@
+version: "2"
+services:
+  frontend:
+    container_name: virtualmedicine
+    build: virtualmedicineapp
+    ports:
+     - 3000:3000
+  user:
+    container_name: user-service
+    restart: always
+    build : user-service
+    ports:
+      - 8020:8020
+    links:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - 27017:27017
+  schedule:
+    container_name: schedule-service
+    restart: always
+    build : schedule-service
+    ports:
+      - 8090:8090
+    links:
+      - mongodb
+  appointment:
+    container_name: appt-service
+    restart: always
+    build : appt-service
+    ports:
+      - 8091:8091
+    links:
+      - mongodb
+  gateway:
+    container_name: gateway
+    restart: always
+    build : gateway
+    # network_mode: "host"
+    # hostname: localhost
+    ports:
+      - 8080:8080
+  chat:
+    container_name: chat-server
+    restart: always
+    build : chat-server
+    # network_mode: "host"
+    # hostname: localhost
+    ports:
+      - 3030:3030
+  video:
+    container_name: video-server
+    restart: always
+    build : video-server
+    # network_mode: "host"
+    # hostname: localhost
+    ports:
+      - 5000:5000

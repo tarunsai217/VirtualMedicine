@@ -1,0 +1,48 @@
+{
+  "schedules": [
+    {
+      "id": "1",
+      "doctorEmail": "Jhondoe@gmail.com",
+      "scheduleDate": "2022-04-22",
+      "startTime": "18:00:00",
+      "endTime": "19:00:00",
+      "scheduleStatus": "AVAILABLE",
+      "specialization": "General Medicine"
+    },
+    {
+      "id": "2",
+      "doctorEmail": "Jhondoe@gmail.com",
+      "scheduleDate": "2022-04-22",
+      "startTime": "14:00:00",
+      "endTime": "15:00:00",
+      "scheduleStatus": "NOTAVAILABLE",
+      "specialization": "General Medicine"
+    },
+    {
+      "id": "3",
+      "doctorEmail": "prince@gmail.com",
+      "scheduleDate": "2022-04-24",
+      "startTime": "18:00:00",
+      "endTime": "19:00:00",
+      "scheduleStatus": "AVAILABLE",
+      "specialization": "Ortho"
+    },
+    {
+      "id": "4",
+      "doctorEmail": "Jhondoe1@gmail.com",
+      "scheduleDate": "2022-04-25",
+      "startTime": "18:00:00",
+      "endTime": "19:00:00",
+      "scheduleStatus": "AVAILABLE",
+      "specialization": "Ortho"
+    },
+    {
+      "doctorEmail": "prince@gmail.com",
+      "scheduleDate": "2022-04-21",
+      "startTime": "12:00:00",
+      "scheduleStatus": "AVAILABLE",
+      "endTime": "13:00:00",
+      "id": "6"
+    }
+  ]
+}

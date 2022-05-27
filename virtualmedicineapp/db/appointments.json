@@ -1,0 +1,60 @@
+{
+  "appointments": [
+    {
+      "id" : "1",
+      "appointmentId": 1,
+      "patientEmail": "patient@gmail.com",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "22/04/2022",
+      "startTime": "18:00:00",
+      "scheduleId": 1,
+      "appointmentStatus": "UPCOMING",
+      "patientQuery": "Stomach-Ache",
+      "endTime": "19:00:00",
+      "specialization": "GeneralMedicine",
+      "bookedOn": "20/02/2022"
+    },
+    {
+      "id" : "2",
+      "appointmentId": 2,
+      "patientEmail": "patient@gmail.com",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "22/04/2022",
+      "startTime": "18:00:00",
+      "scheduleId": 2,
+      "appointmentStatus": "COMPLETED",
+      "patientQuery": "Cancer",
+      "endTime": "19:00:00",
+      "specialization": "GeneralMedicine",
+      "bookedOn": "20/02/2022"
+    },
+    {
+      "id" : "3",
+      "appointmentId": 3,
+      "patientEmail": "patient@gmail.com",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "22/04/2022",
+      "startTime": "18:00:00",
+      "scheduleId": 3,
+      "appointmentStatus": "UPCOMING",
+      "patientQuery": "Stomach-Ache",
+      "endTime": "19:00:00",
+      "specialization": "Ortho",
+      "bookedOn": "20/02/2022"
+    },
+    {
+      "id" : "4",
+      "appointmentId": 4,
+      "patientEmail": "patient@gmail.com",
+      "doctorEmail": "jhondoe@gmail.com",
+      "date": "22/04/2022",
+      "startTime": "18:00:00",
+      "scheduleId": 4,
+      "appointmentStatus": "UPCOMING",
+      "patientQuery": "Head-Ache",
+      "endTime": "19:00:00",
+      "specialization": "Ortho",
+      "bookedOn": "20/02/2022"
+    }
+  ]
+}
